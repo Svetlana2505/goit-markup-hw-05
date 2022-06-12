@@ -520,7 +520,8 @@ img {
   transition: transform 250ms var(--timing-function);
 }
 
-.project-link:hover .project-text {
+.project-link:hover .project-text,
+.project-link:focus .project-text {
   transform: translateY(0);
 }
 
@@ -682,4 +683,5 @@ img {
   border-radius: 50%;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
